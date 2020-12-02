@@ -1,0 +1,24 @@
+body {
+  background-color: #231c1a;
+}
+.logo {
+  display: flex;
+  width: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.welcome {
+  text-align: center;
+  font-style: arial;
+  color: white;
+  font-size: 40px;
+}
+
+.login {
+  border: 1px solid white;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
