@@ -65,14 +65,27 @@ label {
 }
 */
 .redes_sociales {
-  width: 100px;
-  height: 100px;
-
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+}
+.social_media1,
+.social_media2,
+.social_media3 {
+  width: 50px;
+  margin: 40px 20px 0px 20px;
+}
+
+.social_media1:hover,
+.social_media2:hover,
+.social_media3:hover {
+  width: 60px;
+  background-color: #3b3432;
+  border-radius: 7px;
 }
 
 footer {
-  padding-top: 50px;
+  font-size: 10px;
+  padding-top: 120px;
+  padding-left: 10px;
 }
