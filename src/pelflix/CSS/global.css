@@ -2,9 +2,13 @@
   font-family: type_logo;
   src: url("../demode/Demode.ttf");
 }
+@font-face {
+  font-family: type_web;
+  src: url("../cinematografica/Cinematografica-Regular-trial.ttf");
+}
 
 :root {
-  --navbar-height: 3rem;
+  --navbar-height: 36px;
 }
 
 body {

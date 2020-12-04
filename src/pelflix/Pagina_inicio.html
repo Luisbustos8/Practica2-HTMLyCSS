@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pelflix</title>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
@@ -13,18 +13,17 @@
 
         <input type="checkbox" id="burger-checkbox" /> 
         <label for="burger-checkbox" class="burger_label"></label>
-
         <ul class="navbar_list">
-            <li class="navbar-item"><a href="novedades" ></a>Novedades</li>
-            <li class="navbar-item"><a href="Series" ></a>Series</li>
-            <li class="navbar-item"><a href="Peliculas" ></a>Peliculas</li>
-            <li class="navbar-item"><a href="Favoritos" ></a>Favoritos</li>
-            <input type="search" name="Buscador" id="buscador">
+            <li class="navbar-item"><a href="#novedades"></a>Novedades</li>
+            <li class="navbar-item"><a href="#series"></a>Series</li>
+            <li class="navbar-item"><a href="#peliculas"></a>Peliculas</li>
+            <li class="navbar-item"><a href="#Favoritos"></a>Favoritos</li>
+            <input type="search" name="Buscador" id="buscador" class="buscador">
             <button class="boton">Search</button>
         </ul>
     </nav>
     <main>
-    <header>
+    <header id="novedades">
         <h1>Novedades</h1>
     </header>
     <div class="destacados">
@@ -34,7 +33,9 @@
         <img src="./img/bohemian.jpg" alt="Bohemina Rahpsody">
     </div>
 
+    <header id="series">
     <h1>Series</h1>
+    </header>
     <section class="series">
         <img class="series-item" src="./img/big-ban.jpg" alt="Big Ban Theory">
         <img class="series-item" src="./img/brba.jpg" alt="Breaking Bad">
@@ -45,8 +46,11 @@
         <img class="series-item" src="./img/prision.jpg" alt="Prisión Break">
         <img class="series-item" src="./img/the-crown.jpg" alt="The Crown">
     </section>
-    <section>
+    <header id="peliculas">
         <h1>Películas</h1>
+    <section>
+    </header>
+        
         <img src="./img/bohemian.jpg" alt="Bohemian Rahpsody">
         <img src="./img/greenbook.jpg" alt="Green Book">
         <img src="./img/HP.jpg" alt="Harry Potter">

@@ -73,7 +73,7 @@ label {
 .social_media2,
 .social_media3 {
   width: 50px;
-  margin: 40px 20px 0px 20px;
+  margin: 10px 20px 0px 20px;
 }
 
 .social_media1:hover,
@@ -86,13 +86,13 @@ label {
 
 footer {
   font-size: 10px;
-  padding-top: 270px;
+  padding-top: 5px;
   padding-left: 10px;
   color: white;
 }
 
 @media (min-width: 768px) {
   footer {
-    padding-top: 150px;
+    padding-top: 140px;
   }
 }
