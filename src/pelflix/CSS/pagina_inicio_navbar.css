@@ -1,0 +1,58 @@
+.nav_bar {
+  background-color: #3b3432;
+  position: fixed
+  top: 0;
+  left: 0;
+  height: var(--navbar-height);
+}
+
+.logo_nav {
+  font-family: type_logo;
+  color: red;
+  font-size: 25px;
+  margin:0;
+  padding-top: 15px;
+  text-align: center ;
+}
+.navbar_list {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.burger_label{
+  /*background-color: red; /* Para ver el objeto en el inspector */
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 32px;
+  height: 32px;
+}
+
+.burger_label:before {
+  content: '';
+  background-color: red;
+  width: 25px;
+  height: 3px;
+  position: absolute;
+  left: 5px;
+  top: 7px;
+
+  box-shadow: 0 7px 0 0 red, 0 14px 0 0 red;
+}
+
+#burger-checkbox:checked ~ .navbar_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: calc(100vh - var(--navbar-height));
+  opacity: 0.85;
+}
+
+.nav_bar-item {
+
+}

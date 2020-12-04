@@ -4,44 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pelflix</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="home-logo"></a>Logo</li>
-            <li><a href="novedades"></a>Novedades</li>
-            <li><a href="Series"></a>Series</li>
-            <li><a href="Peliculas"></a>Peliculas</li>
-            <li><a href="Favoritos"></a>Favoritos</li>
-            <label for="site-search">Buscador...</label>
+    <nav class="nav_bar">
+        <p class="logo_nav">Pelflix</p>
+
+        <input type="checkbox" id="burger-checkbox" /> 
+        <label for="burger-checkbox" class="burger_label"></label>
+
+        <ul class="navbar_list">
+            <li class="navbar-item"><a href="novedades" ></a>Novedades</li>
+            <li class="navbar-item"><a href="Series" ></a>Series</li>
+            <li class="navbar-item"><a href="Peliculas" ></a>Peliculas</li>
+            <li class="navbar-item"><a href="Favoritos" ></a>Favoritos</li>
             <input type="search" name="Buscador" id="buscador">
-            <button>Buscar</button>
+            <button class="boton">Search</button>
         </ul>
     </nav>
     <main>
     <header>
         <h1>Novedades</h1>
     </header>
-    <nav>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </nav>
-    <section>
-        <h1>Series</h1>
-        <img src="./img/big-ban.jpg" alt="Big Ban Theory">
-        <img src="./img/brba.jpg" alt="Breaking Bad">
-        <img src="./img/los-simpson.jpg" alt="Los Simpsons">
-        <img src="./img/modern.jpg" alt="Modern Family">
+    <div class="destacados">
+        <img src="./img/principe.jpeg" alt="Principe Bel air">
         <img src="./img/peaky.jpg" alt="Peaky Blinders">
-        <img src="./img/principe.jpeg" alt="El Principe de Bel air">
-        <img src="./img/prision.jpg" alt="Prisión Break">
-        <img src="./img/the-crown.jpg" alt="The Crown">
+        <img src="./img/whiplash.jpg" alt="Whiplash">
+        <img src="./img/bohemian.jpg" alt="Bohemina Rahpsody">
+    </div>
+
+    <h1>Series</h1>
+    <section class="series">
+        <img class="series-item" src="./img/big-ban.jpg" alt="Big Ban Theory">
+        <img class="series-item" src="./img/brba.jpg" alt="Breaking Bad">
+        <img class="series-item" src="./img/los-simpson.jpg" alt="Los Simpsons">
+        <img class="series-item" src="./img/modern.jpg" alt="Modern Family">
+        <img class="series-item" src="./img/peaky.jpg" alt="Peaky Blinders">
+        <img class="series-item" src="./img/principe.jpeg" alt="El Principe de Bel air">
+        <img class="series-item" src="./img/prision.jpg" alt="Prisión Break">
+        <img class="series-item" src="./img/the-crown.jpg" alt="The Crown">
     </section>
     <section>
-        <h1>Pelíulas</h1>
+        <h1>Películas</h1>
         <img src="./img/bohemian.jpg" alt="Bohemian Rahpsody">
         <img src="./img/greenbook.jpg" alt="Green Book">
         <img src="./img/HP.jpg" alt="Harry Potter">

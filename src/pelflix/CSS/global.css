@@ -1,0 +1,21 @@
+@font-face {
+  font-family: type_logo;
+  src: url("../demode/Demode.ttf");
+}
+
+:root {
+  --navbar-height: 3rem;
+}
+
+body {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+.logo {
+  display: flex;
+  width: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
