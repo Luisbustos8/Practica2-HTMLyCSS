@@ -6,6 +6,10 @@
   font-family: type_web;
   src: url("../cinematografica/Cinematografica-Regular-trial.ttf");
 }
+@font-face {
+  font-family: type_web1;
+  src: url("../cinematografica/Cinematografica-Light-trial.ttf");
+}
 
 :root {
   --navbar-height: 36px;
