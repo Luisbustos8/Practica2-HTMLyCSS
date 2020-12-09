@@ -1,0 +1,80 @@
+.title_peliculas {
+  margin: 40px 10px 10px 10px;
+}
+.show_more {
+  font-family: type_web1;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0 0 10px 0;
+  padding-right: 10px;
+  font-size: 40px;
+}
+
+.peliculas_1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.peliculas_1 img {
+  height: auto;
+  width: 300px;
+  object-fit: cover;
+  object-position: center top;
+  padding: 0 10px;
+}
+.tit1 {
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+.tit2 {
+  visibility: hidden;
+}
+
+@media (min-width: 768px) {
+  .peliculas_1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    overflow-x: scroll;
+  }
+  .peliculas_1 img {
+    height: 150px;
+  }
+  .peli1 {
+    width: 300px;
+    position: relative;
+    flex: none;
+  }
+
+  .tit1 {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    visibility: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+  .tit2 {
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    visibility: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: white;
+  }
+  .peli1:hover .tit1 {
+    visibility: visible;
+  }
+  .peli1:hover .tit2 {
+    visibility: visible;
+  }
+}
