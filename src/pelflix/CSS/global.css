@@ -27,3 +27,10 @@ body {
   padding-left: 10px;
   padding-top: 10px;
 }
+a,
+a:link,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: white;
+}

@@ -85,6 +85,7 @@
   }
   .navbar_list {
     display: flex;
+    align-items: center;
     height: var(--navbar-height);
   }
   .navbar-item {
@@ -95,21 +96,29 @@
     padding-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    padding-right: 50px;
+    justify-content: flex-start;
+    padding-top: 10px;
   }
-  .buscador {
+
+  .search {
+    display: flex;
     height: 25px;
     border-radius: 20px;
     border: 0px;
     margin-top: 5px;
-    margin-right: 15px;
+    margin-right: 10px;
   }
   .boton {
     height: 20px;
-    margin-top: 7px;
-    margin-right: 10px;
-    border-radius: 30px;
     border: 0;
+    border-radius: 20%;
+    margin-right: 300px;
+    margin-top: 5px;
+  }
+  .cerrar_sesion {
+    border: 0;
+    background-color: red;
+    border-radius: 10%;
+    margin-right: 30px;
   }
 }

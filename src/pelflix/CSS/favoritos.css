@@ -1,77 +1,47 @@
-.title_series {
+.title_fav {
   margin: 40px 10px 10px 10px;
 }
-.show_more {
-  font-family: type_web1;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin: 0 0 10px 0;
-  padding-right: 10px;
-  font-size: 40px;
-}
-
-.series_1 {
+.fav1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
-.series_1 img {
+.fav1 img {
   height: 100px;
   width: 300px;
   object-fit: cover;
   object-position: center top;
   padding: 0 10px;
 }
-.ser1 {
+.tit_fav1 {
   text-align: center;
   font-size: 13px;
   color: white;
+  border: black;
 }
-.ser2 {
+.tit_fav2 {
   visibility: hidden;
 }
-#img_bot {
+.img_fav {
   display: none;
 }
-#img_bot:hover {
-  display: none;
-}
-
 @media (min-width: 768px) {
-  .series_1 {
+  .fav1 {
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    overflow-x: scroll;
   }
-
-  #img_bot {
-    display: block;
-    width: 40px;
-    height: 40px;
-    padding: 0 0 0 8px;
-  }
-  #img_bot:hover {
-    display: block;
-    width: 40px;
-    height: 40px;
-    padding: 0 0 0 8px;
-    content: url(../img/corazon\ rojo.png);
-  }
-  .series_1 img {
+  .fav1 img {
     height: 150px;
   }
-  .serie1 {
+  .fav1 {
     width: 300px;
     position: relative;
     flex: none;
   }
-  .ser1 {
+  .tit_fav1 {
     position: absolute;
-    bottom: 15px;
+    bottom: -15px;
     left: 0;
     right: 0;
     text-align: center;
@@ -79,9 +49,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
   }
-  .ser2 {
+  .tit_fav2 {
     position: absolute;
-    bottom: 3px;
+    bottom: -27px;
     left: 0;
     right: 0;
     text-align: center;
@@ -91,10 +61,19 @@
     color: white;
   }
 
-  .serie1:hover .ser1 {
+  .fav1:hover .tit_fav1 {
     visibility: visible;
   }
-  .serie1:hover .ser2 {
+  .fav1:hover .tit_fav2 {
     visibility: visible;
+  }
+  #img_fav {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 13px;
+    width: 40px;
+    height: 40px;
+    padding: 0 0 0 8px;
   }
 }

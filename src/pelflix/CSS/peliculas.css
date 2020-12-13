@@ -72,14 +72,7 @@
     font-size: 10px;
     color: white;
   }
-  .fav {
-    position: absolute;
-    top: 6px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding: 1px;
-  }
+
   .peli1:hover .tit1 {
     visibility: visible;
   }
