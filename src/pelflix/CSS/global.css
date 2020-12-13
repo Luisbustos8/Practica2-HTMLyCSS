@@ -10,6 +10,10 @@
   font-family: type_web1;
   src: url("../cinematografica/Cinematografica-Light-trial.ttf");
 }
+@font-face {
+  font-family: error;
+  src: url("../cinematografica/Simpsonfont.ttf");
+}
 
 :root {
   --navbar-height: 36px;

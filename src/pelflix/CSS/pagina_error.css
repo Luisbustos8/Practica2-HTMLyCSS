@@ -1,0 +1,26 @@
+.error1 {
+  display: flex;
+  flex-direction: column;
+}
+.error2 {
+  display: flex;
+  flex-direction: row;
+}
+.homer {
+  width: 250px;
+  height: auto;
+  display: flex;
+
+  justify-content: center;
+}
+.tit_err {
+  font-family: error;
+  color: palevioletred;
+  font-size: 80px;
+  padding-top: 10px;
+}
+.tit_err1 {
+  font-family: error;
+  color: palevioletred;
+  font-size: 50px;
+}
